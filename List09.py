@@ -5,5 +5,12 @@ def main(list1):
         list1 (list): parameter
     Returns:
         bool: return answer
+
     """
-    return
+    
+    
+    if list1.count(list1[0])==len(list1):
+        return True
+    else: 
+        return False
+print(main([8,8,8,8,8,9,8]))
