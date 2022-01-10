@@ -9,6 +9,6 @@ def main(list_num):
 
     if list_num[0]>=list_num[-1]:
        return list_num[0]
-    else: return list_num[1]
-print(main([10,5,8,9,6]))
+    else: return list_num[-1]
+print(main([10,5,8,9,6,51]))
     
